@@ -1,0 +1,6 @@
+Breakpoints: sm ≥ 576px, md ≥ 768px, lg ≥ 992px.
+col-sm-6: 50% width from 576px up; stacks only below 576px.
+col-md-6 (current): 50% width from 768px up; stacks below 768px.
+col-lg-6: 50% width from 992px up; stacks on tablets/laptops below 992px.
+Impact: earlier breakpoint (“sm”) shows side-by-side sooner but tighter on small devices; later (“lg”) keeps stacking longer for easier reading but more scrolling.
+For my page: sm = two columns on many phones; md = two columns on tablets/desktops; lg = two columns only on large desktops.
